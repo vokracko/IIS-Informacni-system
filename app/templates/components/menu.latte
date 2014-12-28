@@ -1,0 +1,27 @@
+{block menu}
+	<ul id="main-menu">
+		<li><a href="{link Offence:default}">Přestupky</a></li>
+
+		<li><a href="{link Vehicle:default}">Vozidla</a></li>
+		<li><a href="{link License:default}">Řidičské průkazy</a></li>
+		<li><a href="{link Person:default}">Osoby</a></li>
+		<li><a href="{link Company:default}">Společnosti</a></li>
+
+
+		{if $role === 'správce'}
+			<li><a href="{link User:default}">Správa uživatelů</a></li>
+		{/if}
+
+		{if $username}
+			<li class="right"><a href="{link User:logout}">Odhlásit</a></li>
+		{/if}
+	</ul>
+{/block}
+
+{define #submenu}
+	<ul class="sub-menu">
+		{foreach $items as $item}
+			<li><a href="{link $item['link']}">{$item['title']}</a></li>
+		{/foreach}
+	</ul>
+{/define}

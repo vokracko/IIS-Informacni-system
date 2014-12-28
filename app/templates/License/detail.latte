@@ -1,0 +1,54 @@
+{block title}
+	Detail řidičského průkazu {$license['id']}
+{/block}
+
+{block content}
+	<h2>{include title}</h2>
+	<table>
+		<tr><td>Identifikační číslo</td><td>{$license['id']}</td></tr>
+		<tr>
+			<td>Vlastník</td>
+			{if $license['owner'] == NULL}
+				<td>Nepřiřazeno</a></td>
+			{else}
+				<td><a href="{link Person:detail, $license['owner']['id']}">{$license['owner']['name']}</a></td>
+			{/if}
+		</tr>
+		<tr><td>Vytvořeno</td><td>{$license['created']|date:'Y-m-d'}</td></tr>
+		<tr><td>Expirace</td><td>{$license['expiration']|date:'Y-m-d'}</td></tr>
+		<tr><td>Město vydání</td><td>{$license['city']}</td></tr>
+		<tr>
+			<td>Datum aktivace</td>
+			<td>
+				{if $license['reactivate_date']}
+					{$license['reactivate_date']}
+				{else}
+					Řičiský průkaz je aktivní
+				{/if}
+			</td>
+		</tr>
+		<tr>
+			<td>Oprávnění</td>
+			<td>
+				<span class="{$license['a'] ? green : red}">A</span><br>
+				<span class="{$license['a1'] ? green : red}">A1</span><br>
+				<span class="{$license['am'] ? green : red}">AM</span><br>
+				<span class="{$license['b'] ? green : red}">B</span><br>
+				<span class="{$license['b1'] ? green : red}">B1</span><br>
+				<span class="{$license['c'] ? green : red}">C</span><br>
+				<span class="{$license['c1'] ? green : red}">C1</span><br>
+				<span class="{$license['d'] ? green : red}">D</span><br>
+				<span class="{$license['d1'] ? green : red}">D1</span><br>
+				<span class="{$license['be'] ? green : red}">BE</span><br>
+				<span class="{$license['c1e'] ? green : red}">C1E</span><br>
+				<span class="{$license['ce'] ? green : red}">CE</span><br>
+				<span class="{$license['de'] ? green : red}">DE</span><br>
+				<span class="{$license['d1e'] ? green : red}">D1E</span><br>
+				<span class="{$license['t'] ? green : red}">T</span><br>
+			</td>
+		</tr>
+	</table>
+	<a href="{link License:update, $license['id']}">Upravit</a>
+	<a href="{link License:delete, $license['id']}">Smazat</a>
+{/block}
+

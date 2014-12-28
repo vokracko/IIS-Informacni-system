@@ -1,0 +1,26 @@
+{if count($offences) == 0}
+	V systému nejsou žádné přestupky
+{else}
+<table>
+	<tr>
+		<th>Jednací číslo</th>
+		<th>Osoba</th>
+		<th>Vozidlo</th>
+		<th>Stav</th>
+		<th>Upravit</th>
+		<th>Smazat</th>
+	</tr>
+
+
+	{foreach $offences as $offence}
+		<tr>
+			<td><a href="{link Offence:detail, $offence['id']}">{$offence['id']}</a></td>
+			<td><a href="{link Person:detail, $offence['person']['id']}">{$offence['person']['name']}</a></td>
+			<td><a href="{link Vehicle:detail, $offence['vehicle']['id']}">{$offence['vehicle']['spz']}</a></td>
+			<td>{$offence['proceed_state']}</td>
+			<td><a href="{link Offence:update, $offence['id']}">Upravit</a></td>
+			<td><a href="{link Offence:delete, $offence['id']}">Smazat</a></td>
+		</tr>
+	{/foreach}
+</table>
+{/if}

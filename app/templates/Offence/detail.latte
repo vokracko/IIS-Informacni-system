@@ -1,0 +1,39 @@
+{block title}
+	Detail přestupku {$offence['id']}
+{/block}
+
+{block content}
+	<h2>{include title}</h2>
+	<table>
+		<tr><td>Jednací číslo</td><td>{$offence['id']}</td></tr>
+		<tr><td>Pachatel</td><td><a href="{link Person:detail, $offence['person']['id']}">{$offence['person']['name']}</a></td></tr>
+		<tr><td>Vozidlo</td><td><a href="{link Vehicle:detail, $offence['vehicle']['id']}">{$offence['vehicle']['spz']}</a></td></tr>
+		<tr><td>Typ</td><td>{$offence['type']}</td></tr>
+		<tr><td>Stav</td><td>{$offence['proceed_state']}</td></tr>
+		<tr>
+			<td>Datum projednání</td>
+			<td>
+			{if !$offence['proceed_date']}
+				Nevyplěno
+			{else}
+				{$offence['proceed_date']|date:'Y-m-d'}
+			{/if}
+			</td>
+		</tr>
+		<tr><td>Datum spáchání</td><td>{$offence['date']|date:'Y-m-d'}</td></tr>
+		<tr><td>Výše pokuty</td><td>{$offence['penalty']}</td></tr>
+		<tr><td>Počet bodů</td><td>{$offence['points']}</td></tr>
+		<tr>
+			<td>Splatnost</td>
+			<td>
+			{if !$offence['maturity']}
+				Nevyplěno
+			{else}
+				{$offence['maturity']|date:'Y-m-d'}
+			{/if}
+			</td>
+		</tr>
+	</table>
+	<a href="{link Offence:update, $offence['id']}">Upravit</a>
+	<a href="{link Offence:delete, $offence['id']}">Smazat</a>
+{/block}

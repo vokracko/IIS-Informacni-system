@@ -1,0 +1,43 @@
+{if count($licenses) == 0}
+	V systému nejsou žádné řidičské průkazy
+{else}
+<table>
+	<tr>
+		<th>Identifikační číslo</th>
+		<th>Stav</th>
+		<th>Vlastník</th>
+		<th>Vytvořeno</th>
+		<th>Expirace</th>
+		<th>Město vytvoření</th>
+		<th>Upravit</th>
+		<th>Smazat</th>
+	</tr>
+
+
+	{foreach $licenses as $license}
+		<tr>
+			<td><a href="{link License:detail, $license['id']}">{$license['id']}</a></td>
+			{if $license['owner'] == NULL}
+				<td>Nepřiřazeno</a></td>
+			{else}
+				<td><a href="{link Person:detail, $license['owner']['id']}">{$license['owner']['name']}</a></td>
+			{/if}
+
+			<td>
+				{if $license['reactivate_date']}
+					<span class="red">Odebraný</span>
+				{else}
+					<span class="green">Platný</span>
+				{/if}
+			</td>
+
+			<td>{$license['created']|date:'Y-m-d'}</td>
+			<td>{$license['expiration']|date:'Y-m-d'}</td>
+			<td>{$license['city']}</td>
+
+			<td><a href="{link License:update, $license['id']}">Upravit</a></td>
+			<td><a href="{link License:delete, $license['id']}">Smazat</a></td>
+		</tr>
+	{/foreach}
+</table>
+{/if}

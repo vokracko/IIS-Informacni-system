@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html><head>
+    <meta http-equiv="content-type" content="text/html; charset=utf8">
+    <title>Projekt IIS</title>
+    <style type="text/css">
+    	table { border-collapse: collapse; }
+    	td, th { border: 1px solid black; padding: 0.3em 0.5em; text-align: left; }
+    	dt { font-weight: bold; margin-top: 0.5em; }
+    </style>
+</head>
+<body>
+
+     <h1>Evidence řidičů včetně dopravních přestupků, evidence motorových vozidel.</h1> <!-- Nahradte názvem svého zadání -->
+
+     <dl>
+     	<dt>Autoři</dt>
+     	<dd>Lukáš Vokráčko <!-- Nahraïte skuteèným jménem a e-mailem autora a popisem èinnosti -->
+     	    <a href="mailto:xvokra00@stud.fit.vutbr.cz">xvokra00@stud.fit.vutbr.cz</a> -
+     		Programování informačního systému
+     	</dd>
+     	<dd>Michal Veselý <!-- Nahraïte skuteèným jménem a e-mailem autora a popisem èinnosti -->
+     	    <a href="mailto:xvesel63@stud.fit.vutbr.cz">xvesel63@stud.fit.vutbr.cz</a> -
+     		Návrh a kódování uživatelského rozhraní, příprava databáze, testování
+     	</dd>
+     	<dt>URL aplikace</dt>
+     	<dd><a href="http://www.stud.fit.vutbr.cz/~xvokra00/IIS/www/">http://www.stud.fit.vutbr.cz/~xvokra00/IIS/www/</a></dd>
+     </dl>
+
+<h2>Uživatelé systému pro testování</h2>
+<table>
+<tbody><tr><th>Login</th><th>Heslo</th><th>Role</th></tr>
+<tr><td>admin</td><td>admin</td><td>Administrátor</td></tr>
+<tr><td>urednik</td><td>urednik</td><td>Úředník</td></tr>
+<tr><td>policista</td><td>policista</td><td>Policista</td></tr>
+</tbody></table>
+
+<h2>Implementace</h2>
+<p>Pro implementaci jsme se rozhodli využít Nette Framework, který nám ušetřil spoustu práce se zprácováním a validování formulářů.</p>
+<p>
+    Vytváření, úprava a mazání uživatelů systému je implementováno v souborech
+    <ul>
+    <li>app/presenters/UserPresenter.php</li>
+    <li>app/model/User.php</li>
+    <li>app/templates/User</li>
+    </ul>
+
+    Vytváření, úprava a mazání firem je implementováno v souborech
+    <ul>
+    <li>app/presenters/CompanyPresenter.php</li>
+    <li>app/model/Company.php</li>
+    <li>app/templates/Company</li>
+    </ul>
+
+    Vytváření, úprava a mazání řidičů je implementováno v souborech
+    <ul>
+    <li>app/presenters/PersonPresenter.php</li>
+    <li>app/model/Person.php</li>
+    <li>app/templates/Person</li>
+    </ul>
+
+    Vytváření, úprava a mazání řidičských průkazů je implementováno v souborech
+    <ul>
+    <li>app/presenters/LicensePresenter.php</li>
+    <li>app/model/License.php</li>
+    <li>app/templates/License</li>
+    </ul>
+
+    Vytváření, úprava a mazání spáchaných přestupků je implementováno v souborech
+    <ul>
+    <li>app/presenters/OffencePresenter.php</li>
+    <li>app/model/Offence.php</li>
+    <li>app/templates/Offence</li>
+    </ul>
+
+    Vytváření, úprava a mazání vozidel je implementováno v souborech
+    <ul>
+    <li>app/presenters/VehiclePresenter.php</li>
+    <li>app/model/Vehicle.php</li>
+    <li>app/templates/Vehicle</li>
+    </ul>
+</p>
+
+<p>V návrhu databáze byl změněn primární klíč u tabulky <i>vehicle</i> reprezentující vozidlo z <i>spz</i> na automaticky generovanou sekvenci z důvodu možnosti měnit vozidlu přidělenou státní poznávací značku.</p>
+
+<h2>Instalace</h2>
+<p>Pro instalaci projekt je nutné provést tyto kroky</p>
+<ol>
+<li>Nakopírovat zdrojové soubory adresáře webového serveru</li>
+<li>Importovat soubor database.sql do mysql databáze</li>
+<li>Upravit přístupové údaje v souboru app/config/config[.local].neon</li>
+</ol>
+<h3>Nároky</h3>
+<ul>
+<li>Nette Framework vyžaduje PHP verze 5.3.1 s rozšířeními PDO, Reflection, PCRE</li>
+<li>Pro databázi je nutné použít mysql</li>
+<li>Apache mod_rewrite</li>
+</ul>
+<h2>Známé problémy</h2>
+<!-- <p>Zde popište, které body zadání (IDS a IIS) nejsou implementovány a z
+jakého důvodu. Např. &#8222;Z časových důvodů nebyla implementována správa
+uživatelů.&#8221; Pomůžete tím zrychlit opravování, když neimplementované
+funkce nebudeme muset dlouze hledat.</p>
+
+ -->
+
+</body></html>

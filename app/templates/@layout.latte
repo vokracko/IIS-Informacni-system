@@ -1,0 +1,71 @@
+{**
+ * @param string   $basePath web base path
+ * @param array    $flashes  flash messages
+ *}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>{ifset #title}{include title|striptags} | {/ifset}Nette Sandbox</title>
+
+	<link rel="stylesheet" media="screen,projection,tv" href="{$basePath}/css/screen.css">
+	<link rel="stylesheet" media="print" href="{$basePath}/css/print.css">
+	<link rel="shortcut icon" href="{$basePath}/favicon.ico">
+	<script type="text/javascript" src="{$basePath}/js/jscolor/jscolor.js"></script>
+	{block head}{/block}
+</head>
+
+<body>
+	<script> document.documentElement.className+=' js' </script>
+
+
+	{include 'components/menu.latte'}
+	<div id="insert">
+		{if $presenter == 'Offence'}
+			<a href="{link Offence:insert}">Vložit nový přestupek</a>
+		{/if}
+
+		{if $presenter == 'User' && $role === 'správce'}
+			<a href="{link User:insert}">Vložit nového uživatele</a>
+		{/if}
+
+		{if $presenter == 'Vehicle' && ($role === 'správce' || $role == 'úředník')}
+			<a href="{link Vehicle:insert}">Vložit nové vozidlo</a>
+		{/if}
+
+		{if $presenter == 'Person' && ($role === 'správce' || $role == 'úředník')}
+			<a href="{link Person:insert}">Vložit novou osobu</a>
+		{/if}
+
+		{if $presenter == 'License' && ($role === 'správce' || $role == 'úředník')}
+			<a href="{link License:insert}">Vložit nový řidičský průkaz</a>
+		{/if}
+
+		{if $presenter == 'Company' && ($role === 'správce' || $role == 'úředník')}
+			<a href="{link Company:insert}">Vložit novou společnost</a>
+		{/if}
+
+
+		<span class="right">
+		{if $username}
+			<a href="{link User:changePassword}">Změnit heslo</a>
+		{/if}
+		</span>
+		<div style="clear:both;height:0">&nbsp;</div>
+	</div>
+	<div id="content">
+		<div n:foreach="$flashes as $flash" class="flash {$flash->type}">{$flash->message}</div>
+		<div id="errors"></div>
+
+		{include content}
+	</div>
+
+	{block scripts}
+	<script src="{$basePath}/js/jquery.js"></script>
+	<script src="{$basePath}/js/netteForms.js"></script>
+	<script src="{$basePath}/js/main.js"></script>
+	{/block}
+</body>
+</html>

@@ -1,0 +1,18 @@
+{block title}
+	Detail společnosti {$company['name']}
+{/block}
+
+{block content}
+	<h2>{include title}</h2>
+	<table>
+		<tr><td>IČ</td><td>{$company['id']}</td></tr>
+		<tr><td>Název</td><td>{$company['name']}</td></tr>
+		<tr><td>Město</td><td>{$company['city']}</td></tr>
+		<tr><td>Ulice</td><td>{$company['street']}</td></tr>
+		<tr><td>Číslo popisné</td><td>{$company['street_number']}</td></tr>
+	</table>
+	<a href="{link Offence:companyOffences, $company['id']}">Všechny přestupky spáchané s vozidly této společnosti</a><br>
+	<a href="{link Person:companyOffences, $company['id']}">Všechny osoby páchající přestupky s vozidly této společnosti</a><br>
+	<a href="{link Company:update, $company['id']}">Upravit</a>
+	<a href="{link Company:delete, $company['id']}">Smazat</a>
+{/block}

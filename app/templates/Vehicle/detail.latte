@@ -1,0 +1,32 @@
+{block title}
+	Detail vozidla {$vehicle['spz']}
+{/block}
+
+{block content}
+	<h2>{include title}</h2>
+
+	<table>
+		<tr><td>SPZ</td><td>{$vehicle['spz']}</td></tr>
+		<tr>
+			<td>Vlastník</td>
+			{if $vehicle['owner']['type'] == 'person'}
+				<td><a href="{link Person:detail, $vehicle['owner']['id']}">{$vehicle['owner']['name']}</a></td>
+			{else}
+				<td><a href="{link Company:detail, $vehicle['owner']['id']}">{$vehicle['owner']['name']}</a></td>
+			{/if}
+		</tr>
+		<tr><td>Výrobce</td><td>{$vehicle['manufacturer']}</td></tr>
+		<tr><td>Typ</td><td>{$vehicle['type']}</td></tr>
+		<tr><td>Barva</td><td style="background-color:#{$vehicle['color']};">{$vehicle['color']}</td></tr>
+		<tr><td>Vyrobeno</td><td>{$vehicle['manufactured']|date:'Y-m-d'}</td></tr>
+		<tr><td>Výkon</td><td>{$vehicle['performance']}</td></tr>
+		<tr><td>Míst</td><td>{$vehicle['seats']}</td></tr>
+		<tr><td>Oprávnění</td><td>{$vehicle['permission']}</td></tr>
+	</table>
+	<a href="{link Offence:vehicleOffences, $vehicle['id']}">Všechny přestupky spáchané tímto vozidlem</a><br>
+	<a href="{link Person:vehicleOffences, $vehicle['id']}">Všechny osoby pachájící přestupky tímto vozidlem</a><br>
+	<a href="{link Vehicle:update, $vehicle['id']}">Upravit</a>
+	<a href="{link Vehicle:delete, $vehicle['id']}">Smazat</a>
+{/block}
+
+

@@ -1,0 +1,30 @@
+{block title}
+	Detail osoby {$person['id']}
+{/block}
+
+{block content}
+	<h2>{include title}</h2>
+	<table>
+		<tr><td>Rodné číslo</td><td>{$person['id']}</td></tr>
+		<tr>
+			<td>Řidičský průkaz</td>
+			{if $person['license_id'] == NULL}
+				<td>Nevlastní</a></td>
+			{else}
+				<td><a href="{link License:detail, $person['license_id']}">{$person['license_id']}</a></td>
+			{/if}
+		</tr>
+		<tr><td>Křestní jméno</td><td>{$person['first_name']}</td></tr>
+		<tr><td>Příjmení</td><td>{$person['last_name']}</td></tr>
+		<tr><td>Město</td><td>{$person['city']}</td></tr>
+		<tr><td>Ulice</td><td>{$person['street']}</td></tr>
+		<tr><td>Číslo popisné</td><td>{$person['street_number']}</td></tr>
+		<tr><td>Počet bodů</td><td>{$person['points']}</td></tr>
+
+	</table>
+	<a href="{link Offence:personOffences, $person['id']}">Všechny přestupky spáchané touto osobou</a><br>
+	<a href="{link Vehicle:personOffences, $person['id']}">Vozidla s nimiž tato osoba spáchala přestupky</a><br>
+	<a href="{link Person:update, $person['id']}">Upravit</a>
+	<a href="{link Person:delete, $person['id']}">Smazat</a>
+{/block}
+

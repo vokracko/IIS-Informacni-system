@@ -1,0 +1,19 @@
+{block title}
+	Detail uživatele {$user['first_name']} {$user['last_name']}
+{/block}
+
+{block content}
+	<h2>{include title}</h2>
+
+	<table>
+		<tr><td>Jméno</td><td>{$user['first_name']}</td></tr>
+		<tr><td>Příjmení</td><td>{$user['last_name']}</td></tr>
+		<tr><td>Uživatelské jméno</td><td>{$user['username']}</td></tr>
+		<tr><td>Role</td><td>{$user['role']}</td></tr>
+		<tr><td>Město</td><td>{$user['city']}</td></tr>
+	</table>
+	<a href="{link User:update, $user['id']}">Upravit</a><br>
+	<a href="{link User:delete, $user['id']}">Smazat</a>
+{/block}
+
+

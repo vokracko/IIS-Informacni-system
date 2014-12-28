@@ -1,0 +1,29 @@
+
+{if count($companies) == 0}
+	V systému nejsou žádné společnosti
+{else}
+<table>
+	<tr>
+		<th>IČ</th>
+		<th>Jméno</th>
+		<th>Město</th>
+		<th>Ulice</th>
+		<th>ČP</th>
+		<th>Upravit</th>
+		<th>Smazat</th>
+	</tr>
+
+	{foreach $companies as $company}
+		<tr>
+			<td><a href="{link Company:detail, $company['id']}">{$company['id']}</a></td>
+			<td>{$company['name']}</td>
+			<td>{$company['city']}</td>
+			<td>{$company['street']}</td>
+			<td>{$company['street_number']}</td>
+
+			<td><a href="{link Company:update, $company['id']}">Upravit</a></td>
+			<td><a href="{link Company:delete, $company['id']}">Smazat</a></td>
+		</tr>
+	{/foreach}
+</table>
+{/if}

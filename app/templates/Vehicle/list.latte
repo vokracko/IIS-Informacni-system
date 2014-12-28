@@ -1,0 +1,40 @@
+{if count($vehicles) == 0}
+	V systému nejsou žádná vozidla
+{else}
+<table>
+	<tr>
+		<th>SPZ</th>
+		<th>Vlastník</th>
+		<th>Výrobce</th>
+		<th>Typ</th>
+		<th>Barva</th>
+		<th>Vyrobeno</th>
+		<th>Výkon</th>
+		<th>Míst</th>
+		<th>Oprávnění</th>
+		<th>Upravit</th>
+		<th>Smazat</th>
+	</tr>
+
+	{foreach $vehicles as $vehicle}
+		<tr>
+			<td><a href="{link Vehicle:detail, $vehicle['id']}">{$vehicle['spz']}</a></td>
+			{if $vehicle['owner']['type'] == 'person'}
+				<td><a href="{link Person:detail, $vehicle['owner']['id']}">{$vehicle['owner']['name']}</a></td>
+			{else}
+				<td><a href="{link Company:detail, $vehicle['owner']['id']}">{$vehicle['owner']['name']}</a></td>
+			{/if}
+			<td>{$vehicle['manufacturer']}</td>
+			<td>{$vehicle['type']}</td>
+			<td style="background-color:#{$vehicle['color']}">{$vehicle['color']}</td>
+			<td>{$vehicle['manufactured']|date:'Y-m-d'}</td>
+			<td>{$vehicle['performance']}</td>
+			<td>{$vehicle['seats']}</td>
+			<td>{$vehicle['permission']}</td>
+
+			<td><a href="{link Vehicle:update, $vehicle['id']}">Upravit</a></td>
+			<td><a href="{link Vehicle:delete, $vehicle['id']}">Smazat</a></td>
+		</tr>
+	{/foreach}
+</table>
+{/if}

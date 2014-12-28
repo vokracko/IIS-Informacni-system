@@ -1,0 +1,26 @@
+{if count($users) == 0}
+	V systému nejsou žádní uživatelé
+{else}
+<table>
+	<tr>
+		<th>Jméno</th>
+		<th>Přihlašovací jméno</th>
+		<th>Role</th>
+		<th>Město</th>
+		<th>Upravit</th>
+		<th>Smazat</th>
+	</tr>
+
+	{foreach $users as $user}
+		<tr>
+			<td><a href="{link User:detail, $user['id']}">{$user['first_name']} {$user['last_name']}</a></td>
+			<td>{$user['username']}</td>
+			<td>{$user['role']}</td>
+			<td>{$user['city']}</td>
+
+			<td><a href="{link User:update, $user['id']}">Upravit</a></td>
+			<td><a href="{link User:delete, $user['id']}">Smazat</a></td>
+		</tr>
+	{/foreach}
+</table>
+{/if}

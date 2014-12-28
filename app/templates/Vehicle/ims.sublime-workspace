@@ -1,0 +1,1101 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"TIME_FO",
+				"TIME_FORAGER"
+			],
+			[
+				"day",
+				"dayCount"
+			],
+			[
+				"FO",
+				"FOODCHANGED"
+			],
+			[
+				"FOOD",
+				"FOODCHANGED"
+			],
+			[
+				"bee",
+				"beeCount"
+			],
+			[
+				"ma",
+				"maggot"
+			],
+			[
+				"siml",
+				"simlib"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"ju",
+				"july"
+			],
+			[
+				"de",
+				"december"
+			],
+			[
+				"se",
+				"september"
+			],
+			[
+				"a",
+				"august"
+			],
+			[
+				"create",
+				"createComponentInsertVehicleForm"
+			],
+			[
+				"fe",
+				"fetchPairs"
+			],
+			[
+				"set",
+				"setDebugMode('23.75.345.200"
+			],
+			[
+				"get",
+				"getCode"
+			],
+			[
+				"print",
+				"printHelp"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"ba",
+				"background-repeat"
+			],
+			[
+				"back",
+				"background-attachment"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"backgroud",
+				"background-color"
+			],
+			[
+				"ifaddr",
+				"ifaddrsConstPtr"
+			],
+			[
+				"ifa",
+				"ifaddrsPtr"
+			],
+			[
+				"ad",
+				"addr_info"
+			],
+			[
+				"TFT",
+				"TFTPProtocolException"
+			],
+			[
+				"clo",
+				"clientCount"
+			],
+			[
+				"cl",
+				"clientLock"
+			],
+			[
+				"shu",
+				"shutdown"
+			],
+			[
+				"fi",
+				"filename"
+			],
+			[
+				"file",
+				"filesize"
+			],
+			[
+				"add",
+				"addrinfo"
+			],
+			[
+				"iet",
+				"inet_ntoa"
+			],
+			[
+				"to",
+				"toNetascii"
+			],
+			[
+				"tmp",
+				"tmpNameBuff"
+			],
+			[
+				"from",
+				"fromNetascii"
+			],
+			[
+				"PAR",
+				"Params"
+			],
+			[
+				"ifad",
+				"ifaddrs"
+			],
+			[
+				"fu",
+				"fullAddrVector"
+			],
+			[
+				"IN",
+				"INET6_ADDRSTRLEN"
+			],
+			[
+				"AF",
+				"AF_INET6"
+			],
+			[
+				"sa_",
+				"sa_family"
+			],
+			[
+				"sc",
+				"sckaddr"
+			],
+			[
+				"so",
+				"sockaddr_in6"
+			],
+			[
+				"si",
+				"sizeof"
+			],
+			[
+				"inad",
+				"inaddr"
+			],
+			[
+				"sock",
+				"sockaddr"
+			],
+			[
+				"in",
+				"inaddr"
+			],
+			[
+				"if",
+				"ifaddrsPtr"
+			],
+			[
+				"ifc",
+				"ifaceMtu"
+			],
+			[
+				"blo",
+				"blocksize"
+			],
+			[
+				"T",
+				"TFTPException"
+			],
+			[
+				"st",
+				"start_server"
+			],
+			[
+				"err",
+				"errcode"
+			],
+			[
+				"en",
+				"enoughSpace"
+			],
+			[
+				"opc",
+				"opcode"
+			],
+			[
+				"b",
+				"blockidrecv"
+			],
+			[
+				"ifc_",
+				"ifc_req"
+			],
+			[
+				"ts",
+				"tsizeCheck"
+			],
+			[
+				"th",
+				"throw"
+			],
+			[
+				"TF",
+				"TFTPProtocolException"
+			],
+			[
+				"socka",
+				"sockaddr"
+			],
+			[
+				"scok",
+				"sockaddr_in"
+			],
+			[
+				"s",
+				"socklen"
+			],
+			[
+				"soc",
+				"socklen"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"sockle",
+				"socklen_t"
+			],
+			[
+				"ina",
+				"inaddr"
+			],
+			[
+				"f",
+				"fullAddrVector"
+			],
+			[
+				"tft",
+				"tftpexception"
+			],
+			[
+				"sockaddr",
+				"sockaddr_in6"
+			],
+			[
+				"AF_IN",
+				"AF_INET"
+			],
+			[
+				"ipv",
+				"ipv6"
+			],
+			[
+				"resul",
+				"result_ipv4"
+			],
+			[
+				"addr",
+				"address"
+			],
+			[
+				"par",
+				"parseInt"
+			],
+			[
+				"def",
+				"defaultPort"
+			],
+			[
+				"prin",
+				"printInfo"
+			],
+			[
+				"list-sty",
+				"list-style-type"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"bold",
+				"bolder"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"list-styl",
+				"list-style-image"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"_5",
+				"_5days_time"
+			],
+			[
+				"_",
+				"_5days_time"
+			],
+			[
+				"XML",
+				"XMLDocument"
+			],
+			[
+				"ar",
+				"article"
+			],
+			[
+				"data",
+				"database"
+			],
+			[
+				"last",
+				"last_article"
+			],
+			[
+				"sim",
+				"simplexml_load_file"
+			],
+			[
+				"eb",
+				"embed"
+			],
+			[
+				"cate",
+				"category"
+			],
+			[
+				"get_",
+				"get_all"
+			],
+			[
+				"tem",
+				"template"
+			],
+			[
+				"ca",
+				"category"
+			],
+			[
+				"current",
+				"current_category"
+			],
+			[
+				"pas",
+				"password"
+			],
+			[
+				"pa",
+				"param	@param"
+			],
+			[
+				"dat",
+				"database"
+			],
+			[
+				"op",
+				"option"
+			],
+			[
+				"exe",
+				"execute"
+			],
+			[
+				"npc",
+				"npcJewels"
+			],
+			[
+				"run",
+				"runningMin"
+			],
+			[
+				"drop",
+				"dropMin"
+			],
+			[
+				"exp",
+				"experienceMax"
+			],
+			[
+				"sea",
+				"searchID"
+			],
+			[
+				"np",
+				"npcQuests"
+			],
+			[
+				"rese",
+				"resetSystem"
+			],
+			[
+				"bind",
+				"bindParam"
+			],
+			[
+				"runn",
+				"runningMax"
+			],
+			[
+				"expe",
+				"experienceMax"
+			],
+			[
+				"expre",
+				"experienceMin"
+			],
+			[
+				"che",
+				"checkBoxes"
+			],
+			[
+				"res",
+				"resetSystem"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 272.0,
+		"selected_items":
+		[
+			[
+				"status",
+				"Git: Status"
+			],
+			[
+				"make",
+				"Makefile (projekt): make all"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"statu",
+				"Git: Status"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"stat",
+				"View: Toggle Status Bar"
+			],
+			[
+				"clean",
+				"Makefile (ISA): make clean"
+			],
+			[
+				"STATUS",
+				"Git: Status"
+			],
+			[
+				"STAT",
+				"Git: Status"
+			],
+			[
+				"buil",
+				"Build: Build"
+			],
+			[
+				"bu",
+				"Build: Build"
+			],
+			[
+				"add",
+				"Git: Add Remote"
+			],
+			[
+				"remot",
+				"Git: Remote"
+			],
+			[
+				"remote",
+				"Git: Add Remote"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/lv/Synchronized/www/zevo/cz/graf.html",
+		"/home/lv/Synchronized/FIT/Projekty/IMS/projekt/main.cc",
+		"/home/lv/Synchronized/FIT/Projekty/IMS/projekt/bee.cc",
+		"/home/lv/Synchronized/FIT/Projekty/IMS/projekt/day.cc",
+		"/home/lv/Synchronized/FIT/Projekty/IMS/src/random1.cc",
+		"/home/lv/Synchronized/www/zevo/index-en.html",
+		"/home/lv/Synchronized/www/zevo/index.html",
+		"/home/lv/Synchronized/FIT/Projekty/IMS/src/README.txt",
+		"/home/lv/Synchronized/FIT/Projekty/IMS/projekt/day.h",
+		"/home/lv/Synchronized/FIT/Projekty/IMS/projekt/bee.h",
+		"/home/lv/Synchronized/FIT/Projekty/IMS/projekt/main.h",
+		"/home/lv/Synchronized/FIT/Projekty/IMS/projekt/params.h",
+		"/home/lv/Synchronized/FIT/Projekty/IMS/projekt/Makefile",
+		"/home/lv/Synchronized/FIT/Projekty/IMS/projekt/params.cc",
+		"/home/lv/Synchronized/FIT/Projekty/IMS/src/simlib.h",
+		"/home/lv/Synchronized/FIT/Projekty/IMS/projekt/simulace",
+		"/home/lv/Synchronized/FIT/Projekty/IMS/.gitignore",
+		"/home/lv/Synchronized/FIT/Projekty/IMS/src/dep",
+		"/home/lv/Synchronized/FIT/Projekty/ims/projekt/day.cc",
+		"/home/lv/Synchronized/FIT/Projekty/IIS/app/templates/Vehicle/remove.latte",
+		"/home/lv/Synchronized/FIT/Projekty/IIS/app/templates/@layout.latte",
+		"/home/lv/Synchronized/FIT/Projekty/IIS/app/model/Vehicle.php",
+		"/home/lv/Synchronized/FIT/Projekty/IIS/app/model/Manufacturer.php",
+		"/home/lv/Synchronized/FIT/Projekty/IIS/www/css/screen.css",
+		"/home/lv/Synchronized/FIT/Projekty/IIS/app/templates/components/menu.latte",
+		"/home/lv/Synchronized/FIT/Projekty/IIS/app/presenters/BasePresenter.php",
+		"/home/lv/Synchronized/FIT/Projekty/IIS/app/presenters/VehiclePresenter.php",
+		"/home/lv/Synchronized/FIT/Projekty/IIS/app/config/config.neon",
+		"/home/lv/Synchronized/FIT/Projekty/IIS/app/presenters/OwnerPresenter.php",
+		"/home/lv/Synchronized/FIT/Projekty/IIS/app/templates/Vehicle/insert.latte",
+		"/home/lv/Synchronized/FIT/Projekty/IIS/app/config/config.local.neon",
+		"/home/lv/Synchronized/FIT/Projekty/IIS/.htaccess",
+		"/home/lv/Synchronized/FIT/Projekty/IIS/app/templates/Menu/default.latte",
+		"/home/lv/Synchronized/FIT/Projekty/IIS/app/templates/Homepage/default.latte",
+		"/home/lv/Synchronized/FIT/Projekty/IIS/app/bootstrap.php",
+		"/home/lv/Synchronized/FIT/Projekty/IIS/www/index.php",
+		"/tmp/fz3temp-1/autoload.php",
+		"/tmp/fz3temp-1/park.html",
+		"/tmp/fz3temp-1/.htaccess",
+		"/home/lv/Synchronized/FIT/Projekty/IIS/ftpsync.settings",
+		"/tmp/fz3temp-1/.htaccess 2",
+		"/home/lv/.config/sublime-text-3/Packages/devsync/DevSync.sublime-settings",
+		"/home/lv/Synchronized/FIT/Projekty/ISA/iis.sublime-project",
+		"/home/lv/Synchronized/FIT/Projekty/ISA/README",
+		"/home/lv/Synchronized/FIT/Projekty/ISA/params.cpp",
+		"/home/lv/Synchronized/FIT/Projekty/ISA/tftpexception.cpp",
+		"/home/lv/Synchronized/FIT/Projekty/ISA/mytftpserver.cpp",
+		"/home/lv/Synchronized/www/zevo/files/style.css",
+		"/home/lv/Synchronized/FIT/Prestiž balík/IMS/pulsemka/teorie",
+		"/tmp/E-MAIL PUSH 19-11-2014.html",
+		"/home/lv/Synchronized/FIT/Projekty/ISA/tftpclient.cpp",
+		"/home/lv/Synchronized/www/zevo/cesta-odpadu/todo",
+		"/home/lv/Synchronized/FIT/Projekty/ISA/tftpprotocolexception.cpp",
+		"/home/lv/.bashrc",
+		"/home/lv/Synchronized/FIT/Projekty/ISA/Makefile",
+		"/home/lv/Synchronized/FIT/Prestiž balík/IMS/pulsemka/petriho site/zadani/autobus.txt",
+		"/home/lv/Synchronized/FIT/Prestiž balík/IMS/pulsemka/petriho site/zadani/kopirka.txt",
+		"/home/lv/Synchronized/FIT/Prestiž balík/IMS/pulsemka/petriho site/zadani/ustredna",
+		"/home/lv/Synchronized/FIT/Prestiž balík/IMS/pulsemka/petriho site/zadani/server.txt",
+		"/home/lv/Synchronized/FIT/Prestiž balík/IMS/pulsemka/petriho site/zadani/další příklady",
+		"/home/lv/Synchronized/FIT/Prestiž balík/IMS/pulsemka/petriho site/zadani/zvukovka.txt",
+		"/home/lv/Synchronized/FIT/Prestiž balík/IMS/pulsemka/petriho site/zadani/+rozdeleni po letech.txt",
+		"/home/lv/Downloads/další příklady",
+		"/home/lv/Synchronized/FIT/Prestiž balík/IMS/pulsemka.txt",
+		"/home/lv/Synchronized/FIT/Prestiž balík/IMS/priklady.txt",
+		"/home/lv/.wine/drive_c/Program Files/WarCraft 3/CustomKeyInfo.txt",
+		"/home/lv/.wine/drive_c/Program Files/WarCraft 3/CustomKeys.txt",
+		"/home/lv/Synchronized/FIT/Prestiž balík/IMS/pulsemka/otázky",
+		"/home/lv/Synchronized/FIT/Prestiž balík/IMS/pulsemka/zadani/zadani_pulsem_2009.TXT~",
+		"/home/lv/Synchronized/FIT/Prestiž balík/IMS/pulsemka/zadani/2009.TXT",
+		"/home/lv/Synchronized/FIT/Prestiž balík/IMS/pulsemka/2009-2012.txt",
+		"/home/lv/Synchronized/FIT/Prestiž balík/IMS/demo/zadani .txt",
+		"/home/lv/Downloads/Config.ini",
+		"/home/lv/Synchronized/FIT/Projekty/ISA/tftpclient.h",
+		"/home/lv/Synchronized/FIT/Projekty/ISA/tftpserver.cpp",
+		"/home/lv/Synchronized/FIT/Projekty/ISA/tftpexception.h",
+		"/home/lv/Synchronized/FIT/Projekty/ISA/tftpserver.h",
+		"/home/lv/Synchronized/FIT/Projekty/ISA/atftp_test.sh",
+		"/home/lv/Synchronized/FIT/Projekty/ISA/params.h",
+		"/home/lv/Synchronized/FIT/Prestiž balík/ITU/pulsemka/otázky",
+		"/home/lv/Downloads/test.sh",
+		"/home/lv/Downloads/^Read Me!.txt",
+		"/home/lv/Downloads/staryTest",
+		"/home/lv/Synchronized/FIT/Projekty/ISA/mytftpserver",
+		"/home/lv/Synchronized/FIT/Prestiž balík/ISA/semestralka/otazky.txt",
+		"/home/lv/Downloads/proj1/main.c",
+		"/tmp/trace.c",
+		"/home/lv/Synchronized/FIT/Projekty/ISA/tex/desky.tex",
+		"/home/lv/Synchronized/FIT/Projekty/ISA/tex/projekt.tex",
+		"/home/lv/Synchronized/FIT/Projekty/ISA/tex/fitthesis.cls",
+		"/home/lv/Synchronized/FIT/Projekty/ISA/tex/literatura.bib",
+		"/home/lv/Synchronized/FIT/Projekty/ISA/tex/obsah.tex",
+		"/home/lv/Synchronized/FIT/Projekty/ISA/tex/prilohy.tex",
+		"/home/lv/Synchronized/FIT/Projekty/ISA/tex/projekt.aux",
+		"/home/lv/Downloads/cvičení",
+		"/home/lv/Downloads/sbernice.txt",
+		"/home/lv/Synchronized/FIT/Projekty/ISA/test.sh",
+		"/home/lv/Synchronized/FIT/Prestiž balík/IPZ/vypisky/Link_otazky _pulsem.TXT",
+		"/home/lv/Synchronized/FIT/Prestiž balík/IPZ/sbernice.txt",
+		"/home/lv/Downloads/tex/obsah.tex",
+		"/home/lv/Downloads/tex/projekt.tex",
+		"/home/lv/Downloads/Keys.txt",
+		"/home/lv/Synchronized/FIT/Projekty/ISA/.fuse_hidden0000080500000004",
+		"/home/lv/Synchronized/FIT/Projekty/ISA/tmp.cpp",
+		"/tmp/fz3temp-1/error.log",
+		"/home/lv/Synchronized/FIT/Projekty/ISA/tmp",
+		"/home/lv/Synchronized/www/jiny/novy-svet.html",
+		"/home/lv/Synchronized/www/jiny/tymove-projekty.html",
+		"/home/lv/Synchronized/www/jiny/na-sever-od-slunce.html",
+		"/home/lv/Synchronized/www/jiny/deti-jdou-k-volbam.html",
+		"/home/lv/Synchronized/www/jiny/jsns/css/common9071.css",
+		"/home/lv/Synchronized/www/jiny/index.html",
+		"/tmp/fz3temp-1/index.html",
+		"/home/lv/Downloads/reg.reg",
+		"/home/lv/Downloads/stream1/vaunisa.js",
+		"/tmp/fz3temp-1/vaunisa.js",
+		"/home/lv/Downloads/stream1/index.html",
+		"/home/lv/Downloads/question",
+		"/home/lv/Synchronized/FIT/Projekty/ISA/.fuse_hidden00000d620000000f",
+		"/home/lv/Synchronized/FIT/Projekty/ISA/.gitignore",
+		"/home/lv/Synchronized/www/jiny/Makefile",
+		"/home/lv/Downloads/qrfcview-0.62/src/rfcview.cpp",
+		"/home/lv/Synchronized/www/jiny/README",
+		"/home/lv/Downloads/qrfcview-0.62/src/Makefile",
+		"/home/lv/Downloads/qrfcview-0.62/README.txt",
+		"/home/lv/Downloads/qrfcview-0.62/Makefile",
+		"/home/lv/Downloads/qrfcview-0.62/rfcview.pro",
+		"/home/lv/Downloads/qrfcview-0.62/src/mainwindow.h"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"",
+			"/home/lv/Synchronized/www/jiny",
+			"",
+			"/home/lv/Downloads/www/simplereader/app",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"histogram",
+			"addvehicle",
+			"argu",
+			"missing",
+			"throw",
+			"new char",
+			"= {",
+			"= {}",
+			"cout",
+			"smaller",
+			"cou",
+			"setTi",
+			"full",
+			"setblock",
+			"isuni",
+			"settsi",
+			"setts",
+			"tsize",
+			"access",
+			"lock.",
+			"shutdown",
+			"Control Template",
+			"Device context",
+			"conte",
+			"Data Template",
+			"K čemu slouží Control Template v WPF?",
+			"Jak korektně překreslíte obsah aktuá",
+			"Událostmi řízený přístup (program)",
+			"V Qt se zpravidla pro vytvo",
+			"QObject je",
+			"K čemsi slouží Control Temp",
+			"Co je to resolution-independent ",
+			"K čemsi slouží Control Template",
+			"Kdy je správné nastavovat vlastnost (property) DataC",
+			"JavaScript je: ",
+			"Která z následujících situací není vhodná pro ",
+			"Pokud objektu Xm1HttpRequest nastavíme jeho a",
+			"Při zpracování událostí v Gtk pro následu",
+			"U režimu oken MDI (Multiple-Document In",
+			"Device context je: ",
+			"Překreslování oken ve Windows se děj",
+			"Jak se projeví nastavení barvy štětc",
+			"Při zpracování událostí v Qt pr",
+			"Součástí Qt toolkitu je nás",
+			"QML je ",
+			"QWidget je ",
+			"Co je to resolution-independent pixel",
+			"K čemu slouží Control Template v ",
+			"Který řádek obsahuje jen a pouze správ",
+			"Jakým způsobem nelze sputit kód (Java",
+			"Která datová struktura nejlépe odpovíd",
+			"Mezi výhody použití technologie AJAX ",
+			"Technologie AJAX se využívá předevš",
+			"Jakým příkazem lze přesměrovat zobrazo",
+			"U režimu oken SDI (Single-Docttment Interface) neplatí, že ",
+			"Komponenty jsou: ",
+			"Stav kláves na klávesnici a myši lze ve Windows ",
+			"Jaký je správný postup pro odstranění použitého per",
+			"Zprávy se ve Windows: ",
+			"Textový kursor může být v daném okamžiku aktivn",
+			"Komunikace prvků v knihovně Qt je realizována pomoc",
+			"Qt rozšiřuje C++ pomocí meta object compilertt o násle",
+			"Formální popis procedury provedení experimentu se nepoužív",
+			"Device context ve WinAPI obecně reprezentuje: ",
+			"Modální dialogové okno: ",
+			"Souřadnice polohy ukazatele myši:",
+			"Jaký je správný postup pro nastavení kreslení perem určité barvy ve WinAPI: ",
+			"Ukazatel myši (tzv. pointer) má podobu/tvar: ",
+			"Při stisku a následném uvolnění klávesy 'a' se ve Windows generuje: ",
+			"Grafické prvky v Qt jsou ",
+			"Qt Resources umožňuje ",
+			"ovlivnit hlavně velikost a pozici prvků ",
+			"Pro změnu třídy objektu při návrhu uživatelského rozhraní se využíva: ",
+			"uvitř daného prvku (dceřiných prvků ve stromové hierarchii) ",
+			"Pro změnu třídy objektu při návrhu uživatelského rozhraní se využíva:",
+			"Pro změnu třídy objektu při návrhu uživatelského rozhraní se využíva: ",
+			"Čím je vykreslování WPF komponent (a kompozitních efektů ve Window",
+			"V jakém jazyce se definuje vzhled WPF",
+			"gtk (vy",
+			"technologie AJAX",
+			"ajax",
+			"POST a get",
+			"DOM",
+			"web 2.",
+			"V WPF znamená nastaven",
+			" (Windows Presentation Foundation)",
+			"([a-z])\\)",
+			"[a-z]\\)",
+			"([a-z])\\)",
+			"[a-z]\\)",
+			"([a-z])\\)",
+			"[a-z]\\)",
+			"a\\)",
+			"a)",
+			"access",
+			"dir",
+			"filesize",
+			"timeout",
+			"this->dir",
+			"dir",
+			"::NOTFOU",
+			"::UNDEFINED",
+			"UNDEFINED",
+			"params",
+			"OPTION",
+			"utf8",
+			"todo",
+			"append",
+			"flose",
+			"clock",
+			"dma",
+			"stažení",
+			"TODO",
+			"todo",
+			"fullAddr",
+			"todo",
+			"->mtu",
+			"ret",
+			"todo",
+			"settsi",
+			"todo",
+			"tryfile",
+			"data[",
+			"filesize",
+			"NOTF",
+			"todo",
+			"blocksize",
+			"todo"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"\\n $1\\)",
+			"\\n a\\)",
+			"\\n a)",
+			"\\na)",
+			"<div class=\"actDesc\">",
+			"</a>",
+			"<a class=\"actDescHeader\" ",
+			"<em>PDF</em>",
+			"<span class=\"actName\">",
+			"<div class=\"lessonAct\">",
+			"<em>PDF</em>",
+			"<em>| PDF</em>",
+			"",
+			"<div class=\"actDesc\">",
+			"<span class=\"actName\">",
+			"<div class=\"lessonAct\">",
+			"",
+			"'",
+			"--"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 88.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git-commit":
+	{
+		"height": 88.0
+	},
+	"output.git-init":
+	{
+		"height": 88.0
+	},
+	"output.git-push":
+	{
+		"height": 88.0
+	},
+	"project": "ims.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"random",
+				"src/random1.cc"
+			],
+			[
+				"simlib",
+				"src/simlib.h"
+			],
+			[
+				"day",
+				"projekt/day.cc"
+			],
+			[
+				"par",
+				"projekt/params.h"
+			],
+			[
+				"sere",
+				"tftpserver.cpp"
+			],
+			[
+				"tft",
+				"tftpclient.cpp"
+			],
+			[
+				"cli",
+				"tftpclient.h"
+			],
+			[
+				"clie",
+				"tftpclient.cpp"
+			],
+			[
+				"server",
+				"tftpserver.cpp"
+			],
+			[
+				"tftpse",
+				"tftpserver.h"
+			],
+			[
+				"tftp",
+				"tftpprotocolexception.cpp"
+			],
+			[
+				"feed",
+				"app/model/Feed.php"
+			],
+			[
+				"arti",
+				"app/model/Article.php"
+			],
+			[
+				"art",
+				"app/model/Article.php"
+			],
+			[
+				"ar",
+				"app/model/Article.php"
+			],
+			[
+				"sear",
+				"calls/search.php"
+			],
+			[
+				"sideb",
+				"templates/sidebar.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"ims",
+				"~/Synchronized/FIT/Projekty/IMS/ims.sublime-project"
+			],
+			[
+				"isa",
+				"~/Synchronized/FIT/Projekty/ISA/isa.sublime-workspace"
+			],
+			[
+				"",
+				"~/Downloads/www/simplereader/simplereader.sublime-workspace"
+			],
+			[
+				"mu",
+				"~/Downloads/www/mufilter/mufilter.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 203.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
